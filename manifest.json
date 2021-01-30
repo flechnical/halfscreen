@@ -1,0 +1,23 @@
+{
+  "name": "HalfScreen",
+  "description": "Restricts fullscreen of media in the current active tab to the size of the browser window. Activated by clicking on the extension icon.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabCapture",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}
